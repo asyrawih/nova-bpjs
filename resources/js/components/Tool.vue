@@ -6,6 +6,7 @@
         <CustomeField name="Nama" :value="patient[0].name" />
         <CustomeField name="Peserta" :value="patient[0].jenis_peserta" />
         <CustomeField name="Hak Kelas" :value="patient[0].hak_kelas" />
+        <CustomeField name="Hak Kelas" :value="patient[0].no_bpjs" />
         <CustomeField
           name="Status Peserta"
           :value="patient[0].status_peserta"
